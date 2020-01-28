@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column,Integer,String,Text
-engine = create_engine("mysql+mysqlconnector://root:123456@10.10.10.33:3306/test", encoding='utf-8')
+engine = create_engine("mysql+mysqlconnector://root:111@10.:3/test", encoding='utf-8')
 
 
 Session = sessionmaker(bind=engine)
